@@ -34,6 +34,27 @@ h2 {
   background-position: top left;
 }
 
+#elixirs{
+  border: thin solid #007e7e;
+  width: 200px;
+
+  padding: 0px 20px 20px 20px;
+
+  margin-left: 20px;
+
+  text-align: center;
+  background: url(images/cocktail.gif) repeat-x top center;
+  float: right;
+}
+#elixirs h2{
+  color: black;
+}
+#elixirs h3{
+  color: #d12c47;
+}
+#elixirs {
+  line-height: 1;
+}
 .cd {
   font-style: italic;
 }
@@ -63,4 +84,11 @@ a:hover{
 #elixirs a:hover{
   background: #f88396;
   color: #0d5353;
+}
+
+#footer{
+  font-size: 50%;
+  text-align: center;
+  line-height: normal;
+  margin-left: 30px;
 }
